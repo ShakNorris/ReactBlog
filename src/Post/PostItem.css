@@ -1,0 +1,16 @@
+.card{
+    width: 1100px;
+    margin-bottom:20px;
+}
+
+
+h2:hover{
+    animation:changecolor 0.5s;
+    animation-fill-mode: forwards
+}
+
+
+@keyframes changecolor{
+    from{color: black;}
+    to{color:#ffc107;}
+}
